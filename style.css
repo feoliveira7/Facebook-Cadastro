@@ -1,0 +1,169 @@
+body{
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.topbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: rgb(08, 102, 255);
+    height: 100vh;
+    width: 40vw;
+    border-top-right-radius: 65px;
+    border-bottom-right-radius: 65px;
+    box-shadow: 0px 0px 20px rgba(19, 19, 19, 0.637);
+}
+
+.logoHome1{
+    margin-top: -300px;
+    width: 400px;
+    height: 125 px;
+}
+
+.textHome1{
+    color: white;
+    font-family: Montserrat ;
+    width: 440px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.footerLateral{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.fundoLogin{
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: flex-start; /* Centraliza os elementos verticalmente */
+    background-color: #ffffff;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.096);
+    border-radius: 15px;
+    margin-left: 270px;
+    width: 520px;
+    height: 500px;
+}
+
+.loginTitle{
+    font-family: Poppins;
+    color: #0866ff;
+    font-size: 35px;
+}
+
+.loginEmail{
+    width: 400px;
+    height: 55px;
+    border-radius: 7px;
+    color: black;
+    font-size: 21px;
+    font-family: Poppins;
+    padding-left: 16px;
+    border: none;
+    border: 3px solid rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+    outline-color: #0866ff;
+}
+
+.loginSenha{
+    margin-top: 30px;
+    width: 330px;
+    height: 55px;
+    border-radius: 7px;
+    color: black;
+    font-size: 21px;
+    font-family: Poppins;
+    padding-left: 16px;
+    border: none;
+    border: 3px solid rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+    outline-color: #0866ff;
+}
+
+.inputPasswordGroup{
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o campo de senha e o botão */
+}
+
+.buttonPasswordView{
+    margin-top: 30px;
+    width: 63px;
+    height: 63px;
+    border-radius: 7px;
+    border: 3px solid rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.passwordViewImg{
+    margin-top: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.link1Senha{
+    color: #176ffc;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.link1Senha:hover{
+    color: #176ffc;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.botaoEnviarLogin{
+    margin-top: 1px;
+    width: 290px;
+    height: 53px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.line1{
+    margin-top: 25px;
+    width: 430px;
+    border-bottom: 3px solid rgb(219, 219, 219);
+
+}
+
+.botaoCadastrarLogin{
+    margin-top: 25px;
+    width: 200px;
+    height: 53px;
+    background-color: #13c52b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 550;
+    cursor: pointer;
+}
